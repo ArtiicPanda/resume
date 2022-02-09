@@ -166,10 +166,12 @@ ol {
 	border: 2px solid #40424a;
 	color: #40424a;
 	font-weight: 700;
+	transition: transform 1s;
 }
 
 .site-btn:hover {
 	color: #40424a;
+	transform: translate(0, -10px);
 }
 
 .circle-progress {
@@ -1434,4 +1436,25 @@ ol {
 	.home-four-style .main-left-area {
 		padding-top: 250px;
 	}
+}
+
+.disabled {
+    opacity: 0.6; /* Real browsers */
+    filter: alpha(opacity = 60); /* MSIE */
+}
+
+.logo-title {
+	transition: transform 1s;
+}
+
+.logo-title:hover {
+	transform: translate(0, -10px);
+}
+
+.fa-icon {
+    transition: transform 1s;
+}
+
+.fa-icon:hover {
+	transform: translate(0, -10px);
 }
