@@ -1449,12 +1449,34 @@ ol {
 
 .logo-title:hover {
 	transform: translate(0, -10px);
+	opacity: 0.5;
 }
 
 .fa-icon {
-    transition: transform 1s;
+	transition: opacity 1s, transform 1s;
 }
 
 .fa-icon:hover {
 	transform: translate(0, -10px);
+	opacity: 0.5;
+}
+
+.resume-item {
+	transition: opacity 1s, transform 1s;
+}
+
+.resume-item:hover {
+	transform: translate(0, -10px);
+	/* -webkit-transform: scale(1.015); */
+	opacity: 0.5;
+	/* background: #000; */
+}
+
+.press-item {
+	transition: opacity 1s, transform 1s;
+}
+
+.press-item:hover {
+	transform: translate(0, -10px);
+	opacity: 0.5;
 }
